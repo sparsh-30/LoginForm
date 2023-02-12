@@ -8,7 +8,7 @@ const User=require('./userSchema');
 app.use(express.json());
 app.use(cors());
 
-const connection_url="mongodb+srv://Sparsh30:OLQTowZrZtwZtpgx@cluster0.vgkyxxj.mongodb.net/?retryWrites=true&w=majority";
+const connection_url="";
 
 mongoose.connect(connection_url)
 .then(()=> console.log("Database Connected"));
